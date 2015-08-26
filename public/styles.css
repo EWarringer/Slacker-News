@@ -1,0 +1,139 @@
+body {
+  font-family: Verdana, geneva, sans-serif;
+}
+
+nav {
+  font-size: 10pt;
+  background-color: rgb(255, 102, 0);
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-bottom: 0;
+}
+
+.header:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.header { display: inline-block; }
+* html .header { height: 1%; }
+.header {display: block; }
+
+.login {
+  float: right;
+  margin: 4px 10px 0px 0px;
+}
+
+nav img {
+  float: left;
+  margin: 2px;
+}
+
+nav b {
+  float: left;
+  margin: 4px 0px 0px 3px;
+}
+
+.top-bar {
+  float:left;
+  display: inline;
+  list-style: none;
+  margin: 4px 0px 0px 10px;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  background-color: rgb(246, 246, 239);
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  color: #828282;
+  padding-bottom: 10px;
+}
+
+.content ol {
+  margin-top: 0;
+  padding-top: 5px;
+  padding-left: 31px;
+  font-size: 10pt;
+}
+
+.content li {
+  padding-top: 6px;
+}
+
+.article a {
+  text-decoration: none;
+  color: black;
+  font-size: 10pt
+}
+
+.article {
+  font-size: 8pt;
+}
+
+.article > span > :first-child {
+  color: rgb(148, 148, 148);
+  font-size: 7pt;
+}
+
+.stats {
+  padding-top: 2px;
+  font-size: 7pt;
+}
+
+.stats a {
+  text-decoration: none;
+  color: #828282;
+}
+
+.stats a:hover {
+  text-decoration: underline;
+}
+
+li span { position: relative; left: -7px; }
+.stats { position: relative; left: 6px; }
+
+#more a {
+  margin-left: 35px;
+  text-decoration: none;
+  color: #828282;
+  font-size: 10pt;
+}
+
+.bottom-box {
+  color: #828282;
+  background-color: rgb(246, 246, 239);
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  padding: 15px;
+  border-top: 2px;
+  border-top-style: solid;
+  border-top-color: rgb(255, 102, 0);
+}
+
+.bottom-bar {
+  font-size: 8pt;
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
+  border-top-color: red;
+}
+
+.bottom-bar > a {
+  text-decoration: none;
+  color: black;
+}
+
+.search-container {
+  text-align: center;
+  font-size: 10pt;
+  padding-top: 5px;
+}
